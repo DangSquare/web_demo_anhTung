@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ITIS là nhà</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    </head>
+
+    <body>  
+
+        <script>
+           var txtinput = document.querySelector("input");
+           var ptag = document.querySelector("#type");
+           txtinput.onkeyup = function() {
+                ptag.innerHTML = txtinput.value;
+           }
+        </script>
+
+        <div class="container">
+            <header>
+                <a href="#"><img width="100" src="img/LogoLCK.png" alt=""></a>
+                <div class="log">
+                  <ul class="inlog">
+                    <li>
+                        <a class="dangki" href="#">Đăng kí</a>
+                    </li>
+
+                    <li>
+                        <a class="dangnhap" href="#">Đăng nhập</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>LIÊN CHI ĐOÀN KHOA CÔNG NGHỆ THÔNG TIN I</p>
+            </header>
+            
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="https://docs.google.com/spreadsheets/d/1mKw5zTUQxD5lR0xKjQC611yVCTVqMf_2gJMvGYWBIcI/edit?fbclid=IwAR1Dq1KV6rqhUX6B7PPNutHqzvvgvJOIZ1KxSUx4cBd_EsOEwHhtZZJWJog#gid=0">Thành viên</a></li>
+                        <li><a href="#">Thành tựu</a></li>
+                        <li><a href="#">Hỏi đáp</a></li>
+                        <li><a href="https://www.facebook.com/lcdkhoacntt1.ptit">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <input type="search" placeholder="Gõ những gì bạn muốn...">
+                    <button>Search</button>
+                    <p id="type"></p>
+                </div>
+            </nav>
+
+            <div class="than">
+                <div class="dauthan">
+                    <h1>Anh Em ITIS </h1>
+                    <h1>Cùng Chung Một Nhà</h1>
+                </div>
+
+                <div class="cuoithan">
+                    <button class="divButton1">
+                        Chill 
+                    </button>
+
+                    <a class="divButton2" style="text-decoration: none;" href="https://www.facebook.com/profile.php?id=100012781242157">
+                        About Me
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
